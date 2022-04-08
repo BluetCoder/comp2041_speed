@@ -1,0 +1,13 @@
+DATE		START	STOP	ACTIVITY	COMMENTS
+19/04/21	01:00	02:14	coding		Implemented quit command basic functionality. Able to recognise subset 0 addresses and regex given.
+21/04/21	11:00	12:37	coding		Implemented basic functionality for print command, delete command, substitute command and -n command line option.
+24/04/21	19:00	21:00	coding		Changed variable name to better suit style and how it recognises addresses. Substitute command can now recognise regex
+24/04/21	21:15	21:52	style		Put the code for commands in functions
+24/04/21	23:15	03:03	coding		Implemented last line address and non white space delimit substitute command. Still figuring out address range
+25/04/21	11:30	12:30	coding		Began implementing print line range
+25/04/21	14:30	17:45	coding		Implemented basic functionality of subset 1 range for delete, print and substitute command
+25/04/21	20:00	00:36	coding		Implemented basic functinality for multiple commands subset 1 which caused bugs to appear. Passes subset0 autotest after implementation of multiple commands.
+26/04/21	05:00	06:45	test		Created test00 - test05. Also did debugging if test failed.
+26/04/21	07:00	07:45	test		Created test06 - test09. Also did debugging if test failed.
+26/04/21	07:45	08:10	style		Added comments to make it easier to understand
+26/04/21	08:10	09:00	coding		Implemented basic functionality of append, insert and change command
